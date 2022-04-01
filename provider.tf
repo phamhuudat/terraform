@@ -10,6 +10,6 @@ terraform {
 }
 
 provider "aws" {
-  profile = "bluemarble9735-admin"
+  profile = "admin"
   region  = "ap-southeast-1"
 }
