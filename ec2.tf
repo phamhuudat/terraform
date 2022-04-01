@@ -59,7 +59,7 @@ resource "aws_instance" "web" {
     Name = "frontend_sv"
   }
 }
-resource "aws_instance" "web" {
+resource "aws_instance" "backend" {
 
   ami           = "ami-0d058fe428540cd89"
   instance_type = "t2.micro"
